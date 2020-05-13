@@ -163,12 +163,19 @@ nav
   border-radius: 10px;
 }
 
-
 .entry_image img
 {
   height: 200px;
   width: 270px;
 }
+
+.produit_image img
+{
+  display: flex;
+  height: 320px;
+  width: 400px;
+}
+
 .name
 {
 
@@ -177,6 +184,20 @@ nav
   font-family: 'belligerent_madnessregular', Arial, sans-serif;
 }
 
+.name_produit
+{
+  display: flex;
+  font-size: 25px;
+  margin-left: 170px;
+  color: #a664aa;
+  font-family: 'belligerent_madnessregular', Arial, sans-serif;
+}
+
+.description
+{
+  background-color: yellow;
+
+}
 
 .info
 {
