@@ -241,12 +241,37 @@ nav
 
 /* fin des sections */
 
+/* bloc_one */
 .bloc_one
 {
   height: 387px;
   width: 400px;
   background: #a664aa;
   border-radius: 10px;
+}
+
+/* bloc_one / fin */
+.color
+{
+  display: flex;
+  font-size: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.color img
+{
+  height: 30px;
+  width: 35px;
+}
+
+.user-color
+{
+ border-radius: 25%;
+ margin: 0px 40px 0px 60px;
+ border: 3px solid white;
+ width: 200px;
+ height: 200px;
 }
 
 .bloc_two

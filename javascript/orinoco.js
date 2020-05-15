@@ -1,5 +1,5 @@
 ///  start javascript ///
 
-//alert("hello world");
+alert("bienvenu chez Orinoco");
 
-prompt("ça va ?");
+//prompt("ça va ?");
