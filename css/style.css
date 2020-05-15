@@ -210,18 +210,33 @@ nav
  margin-left: 30%;
  border-radius: 10px;
  background-color: #a664aa;
-
 }
 
-.inside_info
+.inside_panier p, .price_produit p
 {
-  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-family: 'belligerent_madnessregular', Arial, sans-serif;
+  padding-left: 25%;
 }
 
 .info p
 {
   color: white;
   font-family: 'belligerent_madnessregular', Arial, sans-serif;
+}
+
+.price_produit, .inside_panier
+{
+ width: 10rem;
+ margin-top: 10px;
+ padding-top: 1px;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-bottom: 1px;
+ margin-left: 30%;
+ border-radius: 10px;
+ background-color: #a664aa;
 }
 
 /* fin des sections */
@@ -231,6 +246,7 @@ nav
   height: 387px;
   width: 400px;
   background: #a664aa;
+  border-radius: 10px;
 }
 
 .bloc_two
