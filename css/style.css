@@ -270,8 +270,9 @@ nav
 .name_panier
 {
   display: flex;
-  text-align: center;
   color: #a664aa;
+  justify-content: center;
+  margin-left: 0px;
 }
 
 
