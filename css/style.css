@@ -203,15 +203,17 @@ nav
 
 .pre_collections
 {
-    width: 95%;
-    height: 200px;
-    margin-top: 15px;
-    margin-right: 40px;
-    margin-left: 10px;
-    background: white;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 200px;
+  margin-top: 15px;
+  margin-right: 40px;
+  margin-left: 10px;
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 
@@ -233,6 +235,12 @@ nav
 .entry_image img
 {
   height: 200px;
+  width: 270px;
+}
+
+.entry_img
+{
+  height: 185px;
   width: 270px;
 }
 
@@ -258,6 +266,14 @@ nav
   color: #a664aa;
   font-family: 'belligerent_madnessregular', Arial, sans-serif;
 }
+
+.name_panier
+{
+  display: flex;
+  text-align: center;
+  color: #a664aa;
+}
+
 
 .info
 {
@@ -325,6 +341,15 @@ nav
   font-size: 150px;
   justify-content: center;
   margin-top: 50px;;
+}
+
+.bloc_for
+{
+  height: 187px;
+  width: 200px;
+
+  background: #E4E2E2;
+  /*border-radius: 10px;*/
 }
 
 /* bloc_one / fin */
