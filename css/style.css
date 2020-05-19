@@ -216,6 +216,16 @@ nav
   border-radius: 10px;
 }
 
+.pre_collections .fas
+{
+ display: flex;
+ color: white;
+ padding-top: 15px;
+ font-size: 80px;
+ justify-content: center;
+}
+
+
 
 .inside_produit
 {
@@ -289,6 +299,13 @@ nav
  background-color: #a664aa;
 }
 
+.trash
+{
+ background-color: white;
+ padding-right: 0px;
+}
+
+
 .inside_panier p, .price_produit p
 {
   font-size: 16px;
@@ -300,6 +317,12 @@ nav
 .info p
 {
   color: white;
+  font-family: 'belligerent_madnessregular', Arial, sans-serif;
+}
+
+.trash p
+{
+  color: red;
   font-family: 'belligerent_madnessregular', Arial, sans-serif;
 }
 
@@ -352,6 +375,25 @@ nav
   background: #E4E2E2;
   /*border-radius: 10px;*/
 }
+
+.bloc_five
+{
+  height: 187px;
+  width: 200px;
+  background:red;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+
+.vertical_line
+{
+  width: 2px;
+  height: 200px;
+  background-color: #a664aa;
+  margin-left: 60px;
+}
+
 
 /* bloc_one / fin */
 .color
