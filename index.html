@@ -22,6 +22,20 @@
          </ul>
       </nav>
       <!-- fin de la nav-bar/la tete du site -->
+
+      <!-- template / début -->
+
+  <template>
+
+   <div class="button_one"></button>
+   <div class="button_two"></button>
+   <div class="button_three"></button>
+   <div class="button_for"></button>
+   <div class="button_five"></button>
+
+ </template>
+
+        <!-- template / fin -->
       <main id="box_one">
         <!-- sections -->
         <section class="intro">
@@ -38,7 +52,7 @@
              <img alt="orinoco-teddy" src="http://localhost:3000/images/teddy_1.jpg">
               <p class="name">Norbert</p>
               <div class="info">
-              <a href="produit.html">
+              <a class="button_one" href="produit.html?product_id=5be9c8541c9d440000665243">
               <p class="inside_info">plus d'infos</p>
               </a>
              </div>
@@ -50,7 +64,7 @@
              <img alt="orinoco-teddy" src="http://localhost:3000/images/teddy_2.jpg">
              <p class="name">Arnold</p>
              <div class="info">
-               <a href="produit.html">
+               <a class="button_two" href="produit.html?product_id=5beaa8bf1c9d440000a57d94">
              <p class="inside_info">plus d'infos</p>
                </a>
              </div>
@@ -61,7 +75,7 @@
              <img alt="orinoco-teddy" src="http://localhost:3000/images/teddy_3.jpg">
               <p class="name">Lenny and Carl</p>
               <div class="info">
-                <a href="produit.html">
+                <a class="button_three" href="produit.html?product_id=5beaaa8f1c9d440000a57d95">
               <p class="inside_info">plus d'infos</p>
                </a>
               </div>
@@ -71,8 +85,8 @@
             <div class="entry_image">
               <img alt="orinoco-teddy" src="http://localhost:3000/images/teddy_4.jpg">
                <p class="name">Gustav</p>
-                <div class="info">
-                <a href="produit.html">
+                <div class="info" class="info">
+                <a class="button_for" href="produit.html?product_id=5beaabe91c9d440000a57d96">
                 <p class="inside_info">plus d'infos</p>
                 </a>
               </div>
@@ -83,7 +97,7 @@
               <img alt="orinoco-teddy" src="http://localhost:3000/images/teddy_5.jpg">
               <p class="name">Garfunkel</p>
               <div class="info">
-                <a href="produit.html">
+                <a class="button_five" href="produit.html?product_id=5beaacd41c9d440000a57d97">
               <p class="inside_info">plus d'infos</p>
                 </a>
               </div>
@@ -115,7 +129,7 @@
 <script src="./javascript/orinoco.js"></script>
 <script src="./backend/server.js"></script>
 <script src="./backend/app.js"></script>
-<script src="./backend/teddy.js"></script>
+<script src="./backend/routes/teddy.js"></script>
 
 <!-- script / fin -->
 </body>
