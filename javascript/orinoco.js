@@ -25,16 +25,40 @@
 
 ///----------------------------- async await ----------------------
 
-async function test(){
-response = await fetch("http://localhost:3000/api/teddies");
-data = await response.json()
-return data;
+async function test(){ // créer une fonstion asinchrone
+response = await fetch("http://localhost:3000/api/teddies"); // la réponse attent  le retour du serveur
+data = await response.json() // data est égale à la réponse en json
+return data; // la réponse du data
   }
 
   test().then(function(data){
-for (article of data)
- {
-  console.log(article.imageUrl)
- }
 
-})
+    const imgOne = document.querySelector('.img_one');
+    data.forEach(function(article) {
+    imgOne.setAttribute('"src", "${article.imageUrl}"');
+
+
+
+
+});
+
+
+
+
+
+
+ //{
+//  let imgOne = document.querySelector('.img_one');
+//  imgOne.setAttribute("src", "${article.imageUrl}");
+
+
+//  console.log(imageUrl)
+
+// }
+
+// let h1 = document.queryselector('.h1');
+// src.innerHTML = "<img src=${imageUrl}/>";
+// {
+//  console.log(h1);
+// }
+});
