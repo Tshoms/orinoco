@@ -91,7 +91,83 @@ nav
 
 
 /* fin du header */
+/* début / mainpage -- index.html*/
 
+.teddyPhoto
+{
+ width: 350px;
+ height: 270px;
+ border-radius: 50px;
+
+}
+
+.Norbert, .Arnold , .Carl , .Gustav , .Garfunkel
+{
+ display: flex;
+ align-items: center;
+ width: 80%;
+ /*flex-direction: row;*/
+ background-color: #deb6e0;
+ border-radius: 50px;
+ margin-top: 80px;
+ margin-left: 120px;
+}
+
+.teddyName, .teddyInfo
+{
+ text-align: center;
+ font-size: 35px;
+ color: white;
+ font-family: 'belligerent_madnessregular', Arial, sans-serif;
+}
+
+.teddyInfo
+{
+  background-color: #a664aa;
+  width: 40%;
+  height: 270px;
+  border-radius: 50px;
+
+}
+
+#btnCustom
+{
+  height: 65px;
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+
+
+/*.teddyInfo
+{
+ text-align: center;
+ font-size: 15px;
+ color: white;
+ font-family: 'belligerent_madnessregular', Arial, sans-serif;
+}
+
+*/
+
+
+
+
+
+
+
+/* fin / mainpage --- index.html */
+
+
+/* début du footer */
+.title_footer
+{
+ text-align: center;
+ font-family: 'belligerent_madnessregular', Arial, sans-serif;
+ color: white;
+ font-size: 45px;
+ padding-top: 15px;
+}
 
 
 

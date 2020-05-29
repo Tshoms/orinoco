@@ -24,41 +24,30 @@
  //} --
 
 ///----------------------------- async await ----------------------
+const teddyAppend = document.getElementById("mainPage"); // important pour le l'ID du main !!!
 
-async function test(){ // créer une fonstion asinchrone
+async function getTeddies(){ // créer une fonstion asinchrone
 response = await fetch("http://localhost:3000/api/teddies"); // la réponse attent  le retour du serveur
 data = await response.json() // data est égale à la réponse en json
 return data; // la réponse du data
   }
+  getTeddies().then(function(data){
+  data.forEach((teddy) => {
+  const { name, _id, colors, price, description, imageUrl } = teddy      // Déclaration de teddy comme objet
+  teddyAppend.innerHTML +=
 
-  test().then(function(data){
+  `<div class="${name}">
+                <img src="${imageUrl}" alt="Photo de ${name}" class="teddyPhoto"></img>
+                <div class="teddyInfo">
+                <h3 class="teddyName">${name}</h3>
+                <p id="price">Prix: ${price/100}€</p>
+                </div>
+                <button onclick='location.href="produit.html?id=${_id}"' type="button" id="btnCustom">Personnaliser mon teddy</button>
+            </div>`;     // Inportant !!! récuperer les ID pour la page d'apres.
 
-    const imgOne = document.querySelector('.img_one');
-    data.forEach(function(article) {
-    imgOne.setAttribute('"src", "${article.imageUrl}"');
+  //console.log(imageUrl);
 
-
-
+  });
 
 });
-
-
-
-
-
-
- //{
-//  let imgOne = document.querySelector('.img_one');
-//  imgOne.setAttribute("src", "${article.imageUrl}");
-
-
-//  console.log(imageUrl)
-
-// }
-
-// let h1 = document.queryselector('.h1');
-// src.innerHTML = "<img src=${imageUrl}/>";
-// {
-//  console.log(h1);
-// }
-});
+// <i class="fas fa-cog"></i>
