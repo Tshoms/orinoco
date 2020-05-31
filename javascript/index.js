@@ -50,4 +50,3 @@ return data; // la réponse du data
   });
 
 });
-// <i class="fas fa-cog"></i>
