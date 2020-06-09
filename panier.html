@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/panier.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <script src="https://kit.fontawesome.com/02628a171a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <title>panier</title>
 </head>
 
@@ -24,17 +25,17 @@
       <!-- fin de la nav-bar/la tete du site -->
       <div id="container">
                   <div class="hiddenOnForm">
-                      <h2 id="checkoutTitle">
+                      <h2 id="checkout_Title">
                       </h2>
 
-                      <section id="teddyContainer">
+                      <section id="teddy_Container">
                       </section>
 
 
 
                       <section id="finalPrice">
                           <h2>Prix total du panier</h2>
-                          <h2 id="finalCheckout"></h2></br>
+                          <h2 id="final_Checkout"></h2></br>
                           <div class="doubleButton" id="addBtn">
 
                               <section id="viderPanier">
@@ -106,7 +107,7 @@
 
  </footer>
 <!-- script .js / début -->
-  <script src="./javascript/panier.js"></script>
+  <script defer src="./javascript/panier.js"></script>
   <script src="./backend/server.js"></script>
   <script src="./backend/app.js"></script>
   <script src="./backend/routes/teddy.js"></script>

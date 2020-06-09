@@ -4,19 +4,19 @@ const buttonDown = document.getElementById('down');
 
 const postUrlAPI = "http://localhost:3000/api/teddies/order";
 
-const totalCartCost = document.getElementById('finalCheckout');
+const totalCartCost = document.getElementById('final_Checkout');
 
 function teddyGet() {   // Fonction principale pour l'affichage du panier
 
-    let title = document.querySelector('#checkoutTitle');
+    let title = document.querySelector('#checkout_Title');
 
-    let teddyContainer = document.getElementById('teddyContainer');
+    let teddyContainer = document.getElementById('teddy_Container');
 
     let finalCheckout = 0;
 
     if(!cartItems.length) { // Si le panier (localStorage) est vide
         // On crée du contenu HTML et on modifie l'affichage de la page
-        title.textContent = 'Oups ! Votre panier est vide, merci de vous rendre à la page principale et séléctionner un teddy à personnaliser !';
+        title.textContent = 'Votre panier est vide, merci de séléctionner un teddy  !';
                 document.getElementById('viderPanier').style.display="none";
                 document.getElementById('finalPrice').style.display="none";
                 document.getElementById('container').style.paddingBottom="0";
@@ -34,9 +34,9 @@ function teddyGet() {   // Fonction principale pour l'affichage du panier
             let totalPrice = (cartItem.quantity * cartItem.price);
 
             // Création du contenu HTML du panier
-            teddyContainer.innerHTML += `
+            teddy_Container.innerHTML += `
                 <div class="mainContainer">
-                <div id="bloc_seven"> 
+                <div id="bloc_seven">
                     <div class="teddyImg">
                         <img src="${cartItem.imageURL}" alt="Image de l'ours en peluche ${cartItem.name}"/>
                     </div>

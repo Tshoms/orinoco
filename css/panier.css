@@ -130,6 +130,15 @@ img
   justify-content: center;
 }
 
+#form
+{
+  display: none;
+  height: 200px;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #deb6e0;
+  padding: 1.7rem;
+}
 /* FIN / <button> */
 
 /* début du footer */
