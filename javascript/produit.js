@@ -5,7 +5,7 @@ const teddyAppend = document.getElementById("product-pull");
 const teddyColorAppend = document.getElementById("teddy-colors");
 
 async function getTeddies() {                       // Cette partie est très similaire à index.js
-    var flag = 0;                       // Déclaration d'un flag qui servira plus tard pour la page d'erreur
+var flag = 0;                        // Déclaration d'un flag qui servira plus tard pour la page d'erreur
 
     let response = await fetch(urlAPI);
     let data = await response.json()

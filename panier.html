@@ -9,7 +9,7 @@
   <title>panier</title>
 </head>
 
-<body>
+<body onload="teddyGet()">
   <!-- nav-bar/la tete du site-->
       <nav>
          <div>
@@ -22,17 +22,73 @@
          </ul>
       </nav>
       <!-- fin de la nav-bar/la tete du site -->
+      <div id="container">
+                  <div class="hiddenOnForm">
+                      <h2 id="checkoutTitle">
+                      </h2>
+
+                      <section id="teddyContainer">
+                      </section>
 
 
-      <section id="">
-           <div id="">
+
+                      <section id="finalPrice">
+                          <h2>Prix total du panier</h2>
+                          <h2 id="finalCheckout"></h2></br>
+                          <div class="doubleButton" id="addBtn">
+
+                              <section id="viderPanier">
+                                  <button
+                                      type="button";
+                                      id="emptyCart";
+                                      onclick="emptyCart()";>
+                                      Vider le panier
+                                  </button>
+                              </section>
+
+                              <section class="checkout" id="confirmPanier">
+                                  <button
+                                      type="button";
+                                      id="confirmCart";
+                                      onclick="confirmCart()";
+                                      class="btn-Confirm";>
+                                      Confirmer le panier
+                                  </button>
+                              </section>
+                          </div>
+                      </section>
+                  </div>
+
+                  <section id="form">
+                      <div id="onclick--form">
+                          <form class="form-container" id="postData">
+                              <label for="firstName">Prénom</label>
+                              <input type="text" name="firstName" placeholder="Votre prénom..." pattern="[a-z-'éèA-Z]+" id="firstName" maxlength="20" required>
+
+                              <label for="lastName">Nom de Famille</label>
+                              <input type="text" name="lastName" placeholder="Votre nom..." pattern="[a-z-'éèA-Z]+" id="lastName" maxlength="30" required>
+
+                              <label for="address">Adresse</label>
+                              <input type="text" name="address" placeholder="Votre adresse..." pattern="[0-9 'éèa-zA-Z]+" id="address" maxlength="60" required>
+
+                              <label for="city">Ville</label>
+                              <input type="text" name="city" placeholder="Votre ville..." pattern="[a-z-'éè A-Z]+" id="city" maxlength="35" required>
+
+                              <label for="email">Email</label>
+                              <input type="email" name="email" placeholder="exemple123@test.com" id="email" required>
+
+                              <div class="buttons">
+                                  <button type="button" id="confirmOrder" onclick="orderTeddies()">Valider</button>
+                                  <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+                              </div>
+                          </form>
 
 
+                      </div>
+                  </section>
+              </div>
 
 
-           </div>
-
-       </section>
 
 <footer class="bottom">
  <h3 class="title_footer">Abonnez-vous</h3>
