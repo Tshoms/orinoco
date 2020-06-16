@@ -50,8 +50,8 @@ function teddyGet() {   // Fonction principale pour l'affichage du panier
                         <div class="teddyColor">
                             <p> Couleur : ${cartItem.color} </p>
                         </div>
-                        </div>
-
+                      </div>
+                    <div id="bloc_nine">
                         <div class="teddyQuantity">
                             <button
                                 type="button"
@@ -68,10 +68,14 @@ function teddyGet() {   // Fonction principale pour l'affichage du panier
                                 <i class="fas fa-angle-down"></i>
                             </button>
                         </div>
+                    </div>
 
+                    <div id="bloc_teen">
                         <div class="teddyPrix">
                             <p class="teddyPrice"> Prix unitaire : ${cartItem.price} € </p>
                         </div>
+                    </div>
+
                     <div class="TeddyTotalPrice">
                         <h3 class="TeddyTotalPrice-Title">Prix total pour cet article</h3>
                         <p><span class="TeddyTotalPrice-Amount">${cartItem.quantity * cartItem.price}</span> €</p>
