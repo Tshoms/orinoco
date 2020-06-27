@@ -88,60 +88,21 @@ nav
  color: #a664aa;
 }
 /* fin du header */
-h1, h3
-{
- /*color: #a664aa;*/
- display: none;
-}
+
 
 /* boucle_seven / début */
-img
-{
- height: 250px;
- width: 250px;
- border-radius: 50px;
-}
 
-#bloc_seven
+#confirmationInfo
 {
  display: flex;
- flex-direction: row;
- background-color: #deb6e0;
- border-radius: 50px;
- margin-bottom: 35px;
-}
-
-#bloc_heigt, #bloc_nine, #bloc_teen
-{
- display: flex;
- width: 250px;
  flex-direction: column;
- background-color: red;
- color: white;
- font-size: 30px;
  text-align: center;
- border-radius: 50px;
 }
 
-#bloc_heigt
-{
- background-color: #a664aa;
-}
-
-#bloc_nine
-{
- background-color: #32CD32;
-}
 
 .teddyQuantity
 {
  padding-top: 35px;
-}
-
-
-#bloc_teen
-{
- background-color: red;
 }
 
 .teddyPrix
@@ -171,38 +132,6 @@ img
 {
   display: flex;
   /*align-items: center;*/
-  justify-content: center;
-}
-
-/*.doubleButton
-{
-
-}
-*/
-
-#form
-{
-  display: none;
-  height: 400px;
-  flex-direction: column;
-  border-radius: 5px;
-  background-color: #deb6e0;
-  padding: 1.7rem;
-}
-
-#onclick--form
-{
-  display: flex;
-  height: 350px;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.form-container
-{
-  display: flex;
-  /*height: 350px;*/
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -258,78 +187,18 @@ img
 
 @media screen and (max-width: 1440px){
 
-  /*------- buttons --------*/
-  #emptyCart
-  {
-   background-color: white;
-  }
 
-  .btn-Confirm
-  {
-   background-color: white;
-  }
-
-  #confirmOrder
-  {
-   background-color: white;
-  }
-
-  .cancel
-  {
-   background-color: white;
-  }
-
-  /*------- FIN / buttons ---*/
 }
 
 @media screen and (max-width: 1024px){
-  /*------- buttons --------*/
-  #emptyCart
-  {
-   background-color: white;
-  }
 
-  .btn-Confirm
-  {
-   background-color: white;
-  }
 
-  #confirmOrder
-  {
-   background-color: white;
-  }
 
-  .cancel
-  {
-   background-color: white;
-  }
-
-  /*------- FIN / buttons ---*/
 }
 
 @media screen and (max-width: 768px){
-  /*------- buttons --------*/
-  #emptyCart
-  {
-   background-color: white;
-  }
 
-  .btn-Confirm
-  {
-   background-color: white;
-  }
 
-  #confirmOrder
-  {
-   background-color: white;
-  }
-
-  .cancel
-  {
-   background-color: white;
-  }
-
-  /*------- FIN / buttons ---*/
 
 
 }
@@ -357,62 +226,14 @@ img
    {
     font-size: 4em;
    }
+/* -------- FIN du nav bar ------ */
 
-  /* -------- FIN du nav bar ------ */
-
-  /* ------- section / product ------ */
-  img
-  {
-      height: 200px;
-      width: 250px;
-      border-radius: 50px;
-  }
-
-
-  .teddyImg
-  {
-   width: 100%;
-   height: 200px;
-   border-radius: 50px;
-  }
-
-  #bloc_seven
-  {
-    height: 790px;
-    width: 250px;
-    margin-left: 80px;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 35px;
-  }
+/* ------- section / product ------ */
 
   .teddyQuantity, .teddyPrix
   {
    padding-top: 0px;
   }
-/*------- buttons --------*/
-#emptyCart
-{
- background-color: white;
-}
-
-.btn-Confirm
-{
- background-color: white;
-}
-
-#confirmOrder
-{
- background-color: white;
-}
-
-.cancel
-{
- background-color: white;
-}
-
-/*------- FIN / buttons ---*/
-
 
   /* ------- FIN de la section / product ------ */
 
@@ -430,13 +251,7 @@ img
     width: 75%;
   }
 
-  /* --------  Fin du footer --------- */
-
-
-}
-
-}
-
+/* --------  Fin du footer --------- */
 
 @media screen and (max-width: 414px){
   /*  ------- nav bar -------- */
@@ -465,60 +280,11 @@ img
   /* -------- FIN du nav bar ------ */
 
   /* ------- section / product ------ */
-  img
-  {
-      height: 200px;
-      width: 250px;
-      border-radius: 50px;
-  }
 
-
-  .teddyImg
-  {
-   width: 100%;
-   height: 200px;
-   border-radius: 50px;
-  }
-
-  #bloc_seven
-  {
-    height: 790px;
-    width: 250px;
-    margin-left: 80px;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-
-  .teddyQuantity, .teddyPrix
+.teddyQuantity, .teddyPrix
   {
    padding-top: 0px;
   }
-/*------- buttons --------*/
-#emptyCart
-{
- background-color: white;
-}
-
-.btn-Confirm
-{
- background-color: white;
-}
-
-#confirmOrder
-{
- background-color: white;
-}
-
-.cancel
-{
- background-color: white;
-}
-
-/*------- FIN / buttons ---*/
-
-
-  /* ------- FIN de la section / product ------ */
 
   /* -------- footer -------- */
 
@@ -535,8 +301,6 @@ img
   }
 
   /* --------  Fin du footer --------- */
-
-
 }
 
 
@@ -563,76 +327,16 @@ img
    {
      font-size: 4em;
    }
-
 /* -------- FIN du nav bar ------ */
 
 /* ------- section / product ------ */
-
-
-
-img
-{
-    height: 200px;
-    width: 250px;
-    border-radius: 50px;
-}
-
-
- .teddyImg
- {
-   width: 100%;
-   height: 200px;
-   border-radius: 50px;
-  }
-
-  #bloc_seven
-  {
-    height: 790px;
-    width: 250px;
-    margin-left: 70px;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 35px;
-  }
 
   .teddyQuantity, .teddyPrix
   {
    padding-top: 0px;
   }
 
-  /*------- buttons --------*/
-  #emptyCart
-  {
-   background-color: white;
-  }
 
-  .btn-Confirm
-  {
-   background-color: white;
-  }
-
-  #confirmOrder
-  {
-   background-color: white;
-  }
-
-  .cancel
-  {
-   background-color: white;
-  }
-
-/*--------- formulaire ------*/
-  input
-  {
-    font-size: 20px
-  }
-/*---------- FIN /  formulaire ----------*/
-
-
-/*------- FIN / buttons ---*/
-
-
-/* ------- FIN de la section / product ------ */
 
 /* -------- footer -------- */
 
@@ -649,8 +353,6 @@ img
   }
 
 /* --------  Fin du footer --------- */
-
-
 
 }
 
@@ -682,92 +384,20 @@ img
 
 /* -------- FIN du nav bar ------ */
 
-/* ------- section / product ------ */
 
-img
+
+/* --------  Fin du footer --------- */
+.bottom
 {
-  height: 200px;
-  width: 250px;
-  border-radius: 50px;
+  height: 300px;
 }
 
-.teddyImg
- {
-   width: 100%;
-   height: 200px;
-   border-radius: 50px;
- }
-
-
-  #bloc_seven
-  {
-    height: 650px;
-    width: 250px;
-    margin-left: 30px;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-
-  #bloc_heigt, #bloc_nine, #bloc_teen
-  {
-   font-size: 20px;
-   text-align: center;
-  }
-
-  .teddyQuantity, .teddyPrix
-  {
-   padding-top: 0px;
-  }
-
-/* ------- FIN de la section / product ------ */
-
-
-  /*------- buttons --------*/
-  #emptyCart
-  {
-   background-color: white;
-  }
-
-  .btn-Confirm
-  {
-   background-color: white;
-  }
-
-  #confirmOrder
-  {
-   background-color: white;
-  }
-
-  .cancel
-  {
-   background-color: white;
-  }
-  /*----- formulaire -------*/
-  #firstName, #lastName, #address, #city, #email
-  {
-  /* height: 20px;*/
-  }
-
-
-  /*----- FIN / formulaire -------*/
-
-  /*------- FIN / buttons ---*/
-
-
-/* -------- footer -------- */
-
-  .bottom
-  {
-     height: 300px;
-  }
-
-  .social
-  {
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
-  }
+.social
+{
+ flex-direction: column;
+ align-items: center;
+ width: 75%;
+}
 
 /* --------  Fin du footer --------- */
 

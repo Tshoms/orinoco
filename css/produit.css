@@ -57,7 +57,7 @@ nav
 {
  width: 20%;
  display: flex;
- color: white;
+ color: #a664aa;
  justify-content: space-around;
 }
 
@@ -90,6 +90,12 @@ nav
 
 
 /* fin du header */
+h1, h2
+{
+ color: #FAEBD7 ;
+}
+
+
 /* début / mainpage -- index.html*/
 
 
@@ -318,7 +324,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -403,7 +409,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -489,7 +495,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -577,7 +583,7 @@ margin-left: 0px;
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 

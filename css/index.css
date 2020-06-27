@@ -58,7 +58,7 @@ nav
 {
  width: 20%;
  display: flex;
- color: white;
+ color: #a664aa;
  justify-content: space-around;
 }
 
@@ -91,6 +91,12 @@ nav
 
 
 /* fin du header */
+h1
+{
+ color: #FAEBD7 ;
+}
+
+
 /* début / mainpage -- index.html*/
 
 .teddyPhoto
@@ -269,7 +275,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -346,7 +352,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -423,7 +429,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 
@@ -502,7 +508,7 @@ nav
    {
      display: block;
      width: 20%;
-     color: white;
+     color: #a664aa;
      justify-content: space-around;
    }
 

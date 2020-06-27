@@ -191,8 +191,8 @@ function orderTeddies() {
                     // On crée un objet "orderRecap" contenant l'orderId et le prix du panier
                     localStorage.setItem("orderIsConfirmed", JSON.stringify(orderRecap));
                     // On crée un nouveau localStorage "orderIsConfirmed" et on lui donne les informations de l'objet orderRecap
-                    swal("Merci pour votre commande !", "Vous allez être redirigé vers la page de confirmation dans quelques secondes", "success");
-                    setTimeout(function() {window.location = 'confirmed-page.html'; }, 3000);
+                    swal("Merci pour votre commande !", "Vous allez être redirigé vers la page de confirmation.", "success");
+                    setTimeout(function() {window.location = 'commande.html'; }, 3000);
                     // On ajoute une petite fonction setTimeout pour ajouter un délai de 3 secondes entre l'apparition du message swal
                     // Et la redirection de la page vers notre page de confirmation de commande
                 }
