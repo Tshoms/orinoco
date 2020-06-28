@@ -26,7 +26,7 @@
 ///----------------------------- async await ----------------------
 const teddyAppend = document.getElementById("mainPage"); // important pour le l'ID du main !!!
 
-async function getTeddies(){ // créer une fonstion asinchrone
+async function getTeddies(){ // créer une fonction asinchrone
 response = await fetch("http://localhost:3000/api/teddies"); // la réponse attent  le retour du serveur
 data = await response.json() // data est égale à la réponse en json
 return data; // la réponse du data

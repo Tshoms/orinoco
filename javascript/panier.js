@@ -98,7 +98,7 @@ function teddyGet() {   // Fonction principale pour l'affichage du panier
                 });
              });
 
-        });     // récupération des prix totaux de chaque item du panier
+        });     // récupération des prix total de chaque item du panier
                 const TeddiesTotalPrice = [...document.getElementsByClassName('TeddyTotalPrice-Amount')];
                 // Loop pour chaque prix total dans le panier
                 TeddiesTotalPrice.forEach(teddy => {

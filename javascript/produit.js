@@ -140,6 +140,6 @@ var flag = 0;                        // Déclaration d'une variable - flag qui s
 
 
 
-window.onload = () => {     /* Encore une fois, on charge la fonction au lancement de la page */
+window.onload = () => {     /* On charge la fonction au lancement de la page */
     getTeddies();
 }
